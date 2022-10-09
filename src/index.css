@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.light-orange { color: #D9AC84; }
+.orange { color: #F25F0B; }
+.drak-orange { color: #A62F03; }
+.red { color: #D90316; }
+.brown { color: #593119; }

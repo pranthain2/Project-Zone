@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* top button */
+#btn {
+  position: fixed;
+  background-color: #051b79;
+  text-decoration: none;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: none;
+  bottom: 9%;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s;
+  box-shadow: 0 10px 25px rgb(175, 175, 236);
+  z-index:3;
+}
+#btn:hover {
+  background-color: #040668;
+}
+.pop {
+  margin-top: -17px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  #btn{
+    right: 12px;
+    bottom: 5%;
+  }
+}
+
+/* CSS to accomodate dark mode toggle swithc with navabar */
+.NavWithToggleSwitch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  margin-left: 0 !important;
+  overflow: hidden !important;
+   
+}
+
+.navlinks{
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+.fa-home,.fa-user,.fa-file,.fa-plus,.fa-id-badge,.fa-sign-in{
+    padding-right: 4px;
+    font-size: 20px;
+}
+.lobut{
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.02857em;
+  background-color: #fd6464;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 8px;
+  text-decoration: none;
+  margin-top:-4px;
+  margin-right: 10px;
+}
+.lobut:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.loading_indicator {
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+}
